@@ -1,0 +1,30 @@
+.flexed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.normal{
+    height: 100vh;
+    width: 35%;
+    
+}
+
+.flex_col_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flex_col_start{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+
+

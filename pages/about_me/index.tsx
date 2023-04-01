@@ -1,10 +1,11 @@
-import Hero from "@/components/organisms/home/hero";
 import Layout from "@/components/templates/motionLayout";
+import About from "../../components/organisms/about/about";
+
 
 const Index = () => {
   return (
     <Layout>
-      <Hero />
+      <About />
     </Layout>
   );
 };

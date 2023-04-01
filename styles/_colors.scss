@@ -1,0 +1,38 @@
+$light: #fff;
+$gradient: to right top, #321f38, #7c32a7, #6a0dd4, #3f47c2, #6452b6;
+$button-primary: #62ba9b;
+$button-secondary: #321f38;
+$black_34: #4B5563;
+$black_25: #dbdbdb;
+$blacl_0: #0000;
+
+
+.bg{
+    background-image: linear-gradient($gradient);
+    width: 100%;
+    height: 100vh;
+};
+
+.light{
+    color: $light;
+}
+
+.primary{
+    color: $button-primary;
+}
+
+.secondary{
+    color: $button-secondary;
+}
+
+.black_34{
+    color: $black_34;
+}
+
+.black_0{
+    color: $blacl_0;
+}
+
+.black_25{
+    color: $black_25;
+}

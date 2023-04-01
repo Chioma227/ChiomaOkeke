@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import './fonts';
+@import './colors';
+@import './mixins';
+@import './typography';
+@import './spacing';
+@import './scrollBar';
+
+@import './atoms/buton';
+@import './atoms/container';

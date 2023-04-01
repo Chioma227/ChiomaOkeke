@@ -1,0 +1,8 @@
+.button {
+  @include button;
+  &:hover {
+    background-color: #7721da;
+    color: $black_25;
+    box-shadow: inset 3px 4px 6px 0.2px $button-secondary;
+  }
+}

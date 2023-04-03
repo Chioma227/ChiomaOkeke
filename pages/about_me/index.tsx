@@ -1,5 +1,5 @@
 import Layout from "@/components/templates/motionLayout";
-import About from "../../components/organisms/about/about";
+import About from "@/components/templates/about";
 
 
 const Index = () => {

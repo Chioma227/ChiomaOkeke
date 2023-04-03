@@ -7,7 +7,7 @@ import { containerVariants, ButtonVariant } from "@/variants/rootVariants";
 const { FLEX_COL, FLEXED, NORMAL, FLEX_START } = containerVariants;
 const { SECONDARY } = ButtonVariant;
 
-const About = () => {
+const AboutIndex = () => {
   const router = useRouter();
   const route: eventNoArg = () => {
     router.push("/");
@@ -67,4 +67,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutIndex;
